@@ -20,3 +20,12 @@ Maintenant, je pense que ca que il faut faire d'abbord est lire les ressources q
 Mes questions sont les suivants:
 
 - Est ce que le RAG est une program qui permettre consommer une numero fisse de prompts, et a la fin ca ecris les resultats sur une file output.txt?
+
+
+# Chapitre Une: Les chunks
+
+on doit garde les fichiers pertinents pour le projet dans le dossier /data/, ou /data/raw/ est l'endroit pour les fichiers crus qui n'ont etet trates.
+
+Aussi, /data/processed/ est la place pour les fichiers apres le loading, chunking and indexing.
+
+S'il y a des echecs pendant la creation d'une chunk, mon program continuerait avec le chunk prochaine, on creerait si chunks qui possible pour donner le plus de context.
